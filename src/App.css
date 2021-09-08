@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+}
+
+.App{
+  background-color: #fafafa;
+}
+
+.app_header{
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;  /*regardless of how big the container gets keep aspect ration the same[You don't want to stretch it]*/
+}
+.app_headerImage{
+  height: 40px;
+  width: 80px;
+  padding: 20px;
+}
+
+.centerTheModalImage
+{
+  text-align: center;
+}
+
+.app_signUp
+{
+  display: flex;
+  flex-direction: column;
+}
